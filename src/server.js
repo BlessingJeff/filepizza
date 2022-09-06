@@ -22,7 +22,7 @@ process.on("uncaughtException", err => {
 
 var app = express();
 var port =
-  process.env.PORT || (process.env.NODE_ENV === "production" ? 80 : 3000);
+  process.env.PORT || (process.env.NODE_ENV === "production" ? 80 : 4000);
 
 if (!process.env.QUIET) {
   app.use(
